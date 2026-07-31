@@ -68,74 +68,14 @@ nav{
     font-weight:bold;
 }
 
-.logo span{
-    color:#ff3ea5;
+.
+
+
+
+
 }
 
-nav ul{
-    display:flex;
-    list-style:none;
-}
-
-nav ul li{
-    margin:0 15px;
-}
-
-nav ul li a{
-    color:#fff;
-    text-decoration:none;
-    transition:.3s;
-}
-
-nav ul li a:hover{
-    color:#ff3ea5;
-}
-
-.btn{
-    text-decoration:none;
-    color:#fff;
-    background:#ff3ea5;
-    padding:10px 20px;
-    border-radius:30px;
-    transition:.3s;
-}
-
-.btn:hover{
-    background:#ff0080;
-}
-
-/* Hero */
-
-.hero{
-    min-height:100vh;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:120px 8%;
-}
-
-.content{
-    width:55%;
-}
-
-.content h4{
-    color:#bbb;
-    font-size:22px;
-}
-
-.content h1{
-    font-size:65px;
-    margin:10px 0;
-}
-
-.content h1 span{
-    color:#ff3ea5;
-}
-
-.content h3{
-    font-size:30px;
-    margin-bottom:20px;
-}
+.
 
 .content p{
     color:#ccc;
@@ -162,66 +102,9 @@ nav ul li a:hover{
     color:white;
 }
 
-.projectbtn{
-    border:2px solid #ff3ea5;
-    color:white;
-}
 
-.hire:hover,
-.projectbtn:hover{
-    transform:translateY(-5px);
-    box-shadow:0 0 20px #ff3ea5;
-}
-
-.image img{
-    width:420px;
-    border-radius:50%;
-    border:6px solid #ff3ea5;
-    box-shadow:0 0 40px #ff3ea5;
-}
-
-.social{
     margin-top:30px;
-}
 
-.social a{
-    color:white;
-    font-size:24px;
-    margin-right:20px;
-    transition:.3s;
-}
-
-.social a:hover{
-    color:#ff3ea5;
-}
-
-/* About */
-
-#about{
-    padding:100px 8%;
-}
-
-#about h2{
-    font-size:40px;
-    color:#ff3ea5;
-    margin-bottom:20px;
-}
-
-#about p{
-    color:#ddd;
-    line-height:30px;
-    font-size:18px;
-}
-/* ===== ABOUT SECTION ===== */
-/* About ka CSS */
-
-/* ===== EDUCATION SECTION ===== */
-
-.education-box{
-    background:#1b1b2f;
-    color:white;
-    padding:25px;
-    margin:20px 0;
     border-radius:15px;
     border-left:5px solid #ff3ea5;
     box-shadow:0 5px 15px rgba(0,0,0,0.3);
