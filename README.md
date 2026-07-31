@@ -23,6 +23,524 @@ I am a Bachelor of Computer Applications (BCA) student passionate about software
     <!-- Navigation -->
 
     <header>
+    /* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#0b0b14;
+    color:#fff;
+}
+
+/* Navigation */
+
+header{
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    background:#111;
+    z-index:1000;
+}
+
+nav{
+    width:90%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 0;
+}
+
+.logo{
+    color:#fff;
+    font-size:35px;
+    font-weight:bold;
+}
+
+.logo span{
+    color:#ff3ea5;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin:0 15px;
+}
+
+nav ul li a{
+    color:#fff;
+    text-decoration:none;
+    transition:.3s;
+}
+
+nav ul li a:hover{
+    color:#ff3ea5;
+}
+
+.btn{
+    text-decoration:none;
+    color:#fff;
+    background:#ff3ea5;
+    padding:10px 20px;
+    border-radius:30px;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#ff0080;
+}
+
+/* Hero */
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:120px 8%;
+}
+
+.content{
+    width:55%;
+}
+
+.content h4{
+    color:#bbb;
+    font-size:22px;
+}
+
+.content h1{
+    font-size:65px;
+    margin:10px 0;
+}
+
+.content h1 span{
+    color:#ff3ea5;
+}
+
+.content h3{
+    font-size:30px;
+    margin-bottom:20px;
+}
+
+.content p{
+    color:#ccc;
+    line-height:30px;
+    font-size:18px;
+}
+
+.buttons{
+    margin-top:30px;
+}
+
+.hire,
+.projectbtn{
+    text-decoration:none;
+    display:inline-block;
+    padding:14px 30px;
+    margin-right:15px;
+    border-radius:30px;
+    transition:.4s;
+}
+
+.hire{
+    background:#ff3ea5;
+    color:white;
+}
+
+.projectbtn{
+    border:2px solid #ff3ea5;
+    color:white;
+}
+
+.hire:hover,
+.projectbtn:hover{
+    transform:translateY(-5px);
+    box-shadow:0 0 20px #ff3ea5;
+}
+
+.image img{
+    width:420px;
+    border-radius:50%;
+    border:6px solid #ff3ea5;
+    box-shadow:0 0 40px #ff3ea5;
+}
+
+.social{
+    margin-top:30px;
+}
+
+.social a{
+    color:white;
+    font-size:24px;
+    margin-right:20px;
+    transition:.3s;
+}
+
+.social a:hover{
+    color:#ff3ea5;
+}
+
+/* About */
+
+#about{
+    padding:100px 8%;
+}
+
+#about h2{
+    font-size:40px;
+    color:#ff3ea5;
+    margin-bottom:20px;
+}
+
+#about p{
+    color:#ddd;
+    line-height:30px;
+    font-size:18px;
+}
+/* ===== ABOUT SECTION ===== */
+/* About ka CSS */
+
+/* ===== EDUCATION SECTION ===== */
+
+.education-box{
+    background:#1b1b2f;
+    color:white;
+    padding:25px;
+    margin:20px 0;
+    border-radius:15px;
+    border-left:5px solid #ff3ea5;
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}
+
+.education-box h3{
+    color:#ff3ea5;
+    margin-bottom:10px;
+}
+
+.education-box h4{
+    color:white;
+    margin-bottom:10px;
+}
+
+.education-box p{
+    color:#ddd;
+    line-height:28px;
+}
+#skills{
+    padding:100px 0;
+    text-align:center;
+}
+/* ===== Skills Section ===== */
+
+.skills{
+    background:#111;
+    padding:80px 8%;
+    text-align:center;
+}
+
+.skills-title h2{
+    color:#ffd700;
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.skills-title p{
+    color:#ccc;
+    max-width:700px;
+    margin:0 auto 50px;
+    line-height:28px;
+}
+
+.skills-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(170px,1fr));
+    gap:25px;
+}
+
+.skill-card{
+    background:#1b1b1b;
+    border-radius:15px;
+    padding:25px;
+    transition:.4s;
+    border:2px solid transparent;
+    cursor:pointer;
+}
+
+.skill-card img{
+    width:70px;
+    height:70px;
+    margin-bottom:15px;
+}
+
+.skill-card h4{
+    color:#fff;
+    font-size:20px;
+}
+
+.skill-card:hover{
+    transform:translateY(-10px) scale(1.05);
+    border:2px solid #ffd700;
+    box-shadow:0 0 25px rgba(255,215,0,.7);
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.skills-title h2{
+    font-size:32px;
+}
+
+.skills-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.skill-card img{
+    width:55px;
+    height:55px;
+}
+
+}
+
+@media(max-width:480px){
+
+.skills-grid{
+    grid-template-columns:1fr 1fr;
+    gap:15px;
+}
+
+.skill-card{
+    padding:18px;
+}
+
+}
+#contact{
+    background:#111;
+    color:#fff;
+    padding:80px 10%;
+    text-align:center;
+}
+
+.contact-title{
+    font-size:40px;
+    color:#ff3ea5;
+    margin-bottom:40px;
+}
+
+.contact-card{
+    max-width:700px;
+    margin:auto;
+    background:#1c1c1c;
+    padding:35px;
+    border-radius:20px;
+    box-shadow:0 0 25px rgba(255,62,165,.4);
+    animation:fadeUp 1s ease;
+}
+
+.contact-item{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    margin:20px 0;
+    padding:15px;
+    border-radius:12px;
+    transition:.4s;
+}
+
+.contact-item i{
+    font-size:28px;
+    color:#ff3ea5;
+}
+
+.contact-item a{
+    color:#fff;
+    text-decoration:none;
+    font-size:18px;
+}
+
+.contact-item:hover{
+    transform:translateX(10px);
+    background:#ff3ea5;
+}
+
+.contact-item:hover i,
+.contact-item:hover a{
+    color:#fff;
+}
+
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        transform:translateY(50px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+/* ===== PROJECT SECTION ===== */
+/* Project ka CSS */
+.c{
+    width:85%;
+}
+
+.cpp{
+    width:80%;
+}
+
+.html{
+    width:90%;
+}
+
+.css{
+    width:85%;
+}
+
+.js{
+    width:75%;
+}
+
+.java{
+    width:80%;
+}
+
+.dbms{
+    width:75%;
+}
+
+.office{
+    width:90%;
+}
+
+.canva{
+    width:80%;
+}
+.project-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+}
+
+.project-card{
+    background:#1b1b2f;
+    padding:20px;
+    border-radius:15px;
+    border-left:5px solid #ff3ea5;
+    transition:.3s;
+}
+
+.project-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 0 20px #ff3ea5;
+}
+
+.project-card h3{
+    color:#ff3ea5;
+    margin-bottom:10px;
+}
+
+.project-card p{
+    color:#ddd;
+    line-height:26px;
+}
+/* Animation */
+
+section{
+    opacity:0;
+    transform:translateY(60px);
+    animation:fadeUp 1s ease forwards;
+}
+
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        transform:translateY(60px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+.project-card{
+    transition:0.4s ease;
+}
+
+.project-card:hover{
+    transform:translateY(-10px) scale(1.03);
+    box-shadow:0 0 30px #ff3ea5;
+}
+.btn,
+.hire,
+.projectbtn{
+
+    animation:glow 2s infinite;
+}
+
+@keyframes glow{
+
+0%{
+box-shadow:0 0 5px #ff3ea5;
+}
+
+50%{
+box-shadow:0 0 20px #ff3ea5;
+}
+
+100%{
+box-shadow:0 0 5px #ff3ea5;
+}
+
+}
+.image img{
+
+animation:float 3s ease-in-out infinite;
+
+}
+
+@keyframes float{
+
+0%{
+transform:translateY(0);
+}
+
+50%{
+transform:translateY(-15px);
+}
+
+100%{
+transform:translateY(0);
+}
+
+}
+.bar div{
+
+animation:load 2s ease;
+
+}
+
+@keyframes load{
+
+from{
+width:0;
+}
+
+}
 
         <nav>
 
