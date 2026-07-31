@@ -1,2 +1,326 @@
 # bebi-portfolio
 I am a Bachelor of Computer Applications (BCA) student passionate about software development and web technologies. I enjoy building practical projects, learning new programming languages, and improving my problem-solving skills. I am eager to apply my knowledge in real-world projects and grow as a software developer.
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bebi Kumari | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+
+    <header>
+
+        <nav>
+
+            <h2 class="logo">Bebi<span>.</span></h2>
+
+            <ul>
+
+                <li><a href="#home">Home</a></li>
+
+                <li><a href="#about">About</a></li>
+
+                <li><a href="#education">Education</a></li>
+
+                <li><a href="#skills">Skills</a></li>
+
+                <li><a href="#projects">Projects</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+            <a target="_blank" class="cv" href="assets/Bebi_Kumari_CV.pdf" download>Download CV</a>
+        </nav>
+
+    </header>
+
+    <!-- Hero Section -->
+
+    <section class="hero" id="home">
+
+        <div class="content">
+
+            <h4>Hello, My Name Is</h4>
+
+            <h1>Bebi <span>Kumari</span></h1>
+
+            <h3>BCA 2nd Year Student</h3>
+
+            <p>
+
+                I am a passionate BCA student with knowledge of HTML, CSS,
+                JavaScript, Java, C Programming, Python, DBMS and Web Development.
+
+                My goal is to become a Full Stack Web Developer.
+
+            </p>
+
+            <div class="buttons">
+
+                <a href="#contact" class="hire">Hire Me</a>
+
+                <a href="#projects" class="projectbtn">My Projects</a>
+
+            </div>
+
+            <div class="social">
+
+                <a href="#"><i class="fab fa-github"></i></a>
+
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+
+                <a href="#"><i class="fab fa-instagram"></i></a>
+
+                <a href="#"><i class="fab fa-facebook"></i></a>
+
+            </div>
+
+        </div>
+
+        <div class="image">
+
+            <img src="assets/bebi.k2.jpeg" alt="">
+
+        </div>
+
+    </section>
+
+    <!-- About Section Starts Here -->
+
+    <section id="about">
+
+        <h2>About Me</h2>
+
+        <p>
+
+            I am <b>Bebi Kumari</b>, a dedicated Bachelor of Computer Applications (BCA)
+            2nd Year student. I have a strong interest in Web Development,
+            Java Programming, Database Management System (DBMS),
+            Software Development and Front-End Design.
+
+            I enjoy building responsive websites and learning new technologies.
+            I am hardworking, quick learner and always ready to improve my technical skills.
+
+        </p>
+
+    </section>
+
+    <!-- Continue with Education, Skills, Projects... -->
+    <section id="education">
+        <h2>Education</h2>
+
+        <div class="education-box">
+            <h3>Bachelor of Computer Applications (BCA)</h3>
+            <h4>St. Columba's College, Hazaribag</h4>
+            <p><strong>Duration:</strong> July 2024 – May 2027</p>
+            <p><strong>Current Status:</strong> BCA 2nd Year Student</p>
+            <p><strong>Relevant Skills:</strong> C Programming, C++, HTML, CSS, JavaScript, Java (Learning)</p>
+            <p>
+                Currently pursuing BCA with a focus on programming,
+                web development, database management, and software development.
+            </p>
+        </div>
+
+        <div class="education-box">
+            <h3>Intermediate (Science)</h3>
+            <h4>Inter Science College, Hazaribag</h4>
+            <p><strong>Duration:</strong> July 2022 – April 2024</p>
+            <p><strong>Percentage:</strong> 80%</p>
+            <p>
+                Developed analytical and problem-solving skills through
+                science subjects and participated in leadership activities.
+            </p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+<section id="skills">
+    <h2>My Skills</h2>
+
+    <div class="skills-circle">
+
+        <div class="center-skill">
+            <h3>Skills</h3>
+            <p>HTML • CSS • JavaScript • Java</p>
+        </div>
+        <!-- ===== Skills Section ===== -->
+        <section class="skills" id="skills">
+
+            <div class="skills-title">
+                <h2>What I Do</h2>
+                <p>
+                    As a BCA 2nd Year student, I am learning programming, web development,
+                    database management, and software development. Here are my technical skills.
+                </p>
+            </div>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="">
+                    <h4>HTML5</h4>
+                </div>
+
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="">
+                    <h4>CSS3</h4>
+                </div>
+
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                        alt="">
+                    <h4>JavaScript</h4>
+                </div>
+
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="">
+                    <h4>Java</h4>
+                </div>
+
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="">
+                    <h4>C</h4>
+                </div>
+
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                        alt="">
+                    <h4>C++</h4>
+                </div>
+
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="">
+                    <h4>MySQL</h4>
+                </div>
+
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="">
+                    <h4>GitHub</h4>
+                </div>
+
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="">
+                    <h4>VS Code</h4>
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+    </div>
+</section>
+<section id="projects">
+    <h2>Academic Projects</h2>
+
+    <div class="project-container">
+
+        <div class="project-card">
+            <h3>C Code Learning</h3>
+            <p>
+                A collection of C programming programs covering
+                basic syntax, loops, functions, arrays, pointers,
+                and problem-solving exercises.
+            </p>
+            <p><strong>Technology:</strong> C</p>
+        </div>
+
+        <div class="project-card">
+            <h3>All Program C</h3>
+            <p>
+                A repository containing all C programming assignments
+                and practical programs completed during Semester 1.
+            </p>
+            <p><strong>Technology:</strong> C</p>
+        </div>
+
+        <div class="project-card">
+            <h3>C & C++ Project</h3>
+            <p>
+                A simple project demonstrating data management,
+                user input handling, and file operations using
+                C and C++.
+            </p>
+            <p><strong>Technology:</strong> C, C++</p>
+        </div>
+
+        <div class="project-card">
+            <h3>C++ Code Library</h3>
+            <p>
+                A collection of C++ programs demonstrating
+                Object-Oriented Programming (OOP), classes,
+                objects, inheritance, and other core concepts.
+            </p>
+            <p><strong>Technology:</strong> C++</p>
+        </div>
+
+        <div class="project-card">
+            <h3>Java Practice Programs</h3>
+            <p>
+                A repository of Java programs including
+                loops, arrays, methods, classes,
+                and object-oriented programming concepts.
+            </p>
+            <p><strong>Technology:</strong> Java</p>
+        </div>
+
+    </div>
+</section>
+<section id="contact">
+    <h2 class="contact-title">Contact Me</h2>
+
+    <div class="contact-card">
+
+        <div class="contact-item">
+            <i class="fas fa-user"></i>
+            <h3>Bebi Kumari</h3>
+        </div>
+
+        <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <a href="tel:+916203273591">+91 6203273591</a>
+        </div>
+
+        <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:bebi7349@gmail.com">bebi7349@gmail.com</a>
+        </div>
+
+        <div class="contact-item">
+            <i class="fab fa-github"></i>
+            <a href="https://github.com/bebi7349-dot" target="_blank">
+                github.com/bebi7349-dot
+            </a>
+        </div>
+
+        <div class="contact-item">
+            <i class="fab fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/bebi-kumari-5368a236b" target="_blank">
+                LinkedIn Profile
+            </a>
+        </div>
+
+    </div>
+</section>
+<header>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</header>
